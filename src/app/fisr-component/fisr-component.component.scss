@@ -1,0 +1,17 @@
+h2.liketext 
+{ 
+    color: white; 
+    display:inline; 
+content: justify; }
+
+.flex-container {
+    display: flex;
+    background-color:black;
+  }
+  
+  .flex-container > div {
+    // background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
