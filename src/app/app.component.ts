@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-app';
+  isTrueF = false;
+  isTrueS = false;
+
+  onPress1(){
+    this.isTrueF = true;
+    this.isTrueS = false;
+  }
+  onPress2(){
+    this.isTrueS = true;
+    this.isTrueF = false;
+  }
+
 }

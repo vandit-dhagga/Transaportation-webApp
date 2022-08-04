@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FisrComponentComponent } from './fisr-component/fisr-component.component';
+import { SecondComponentComponent } from './second-component/second-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FisrComponentComponent,
+    SecondComponentComponent
   ],
   imports: [
     BrowserModule,
